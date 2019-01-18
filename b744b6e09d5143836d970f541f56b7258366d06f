@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dc5c94f6_23def5dc",
+        "filename": "recipes-phosphor/images/npcm750-bootblock.bb",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000329
+      },
+      "writtenOn": "2019-01-18T03:21:31Z",
+      "side": 1,
+      "message": "Should upgrade version to 10.09.5 for match runbmc-nuvoton machine?",
+      "range": {
+        "startLine": 12,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 19
+      },
+      "revId": "b744b6e09d5143836d970f541f56b7258366d06f",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    }
+  ]
+}
