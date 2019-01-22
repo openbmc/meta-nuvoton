@@ -6,3 +6,5 @@ require recipes-bsp/u-boot/u-boot.inc
 PROVIDES += "u-boot"
 
 DEPENDS += "dtc-native"
+
+BUILD_CFLAGS_remove = "-isystem${STAGING_INCDIR_NATIVE}"
