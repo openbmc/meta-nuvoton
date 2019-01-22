@@ -13,7 +13,7 @@ S = "${WORKDIR}/git"
 
 UBRANCH = "npcm7xx"
 SRC_URI = "git://github.com/Nuvoton-Israel/u-boot.git;branch=${UBRANCH}"
-SRCREV = "196461383f7d043f18cab3bb34dded89fba4712a"
+SRCREV = "5d036755c2e13b5244f63ce052657e4ef3089bd5"
 
 PV .= "+${UBRANCH}+"
 
