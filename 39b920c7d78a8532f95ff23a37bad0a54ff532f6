@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "75194345_0006aab9",
+        "filename": "recipes-phosphor/images/npcm750-bootblock.bb",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000233
+      },
+      "writtenOn": "2019-02-14T16:29:54Z",
+      "side": 1,
+      "message": "Can we use my recipe instead? It makes it easier to select the desired bootblock version. https://gerrit.openbmc-project.xyz/c/openbmc/meta-nuvoton/+/12596\n\nFeel free to cherry-pick that change into your stack and take it over.",
+      "revId": "39b920c7d78a8532f95ff23a37bad0a54ff532f6",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    }
+  ]
+}
