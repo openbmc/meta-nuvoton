@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "7dc018ac_5fad2ba0",
+        "filename": "recipes-phosphor/images/files/001-igps-remove-sudo.patch",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000233
+      },
+      "writtenOn": "2019-03-26T21:51:51Z",
+      "side": 1,
+      "message": "I\u0027d prefer if this patch could be incorporated into igps itself, but I don\u0027t think having it here is that big of a deal.",
+      "revId": "39b920c7d78a8532f95ff23a37bad0a54ff532f6",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "75194345_0006aab9",
         "filename": "recipes-phosphor/images/npcm750-bootblock.bb",
         "patchSetId": 2
@@ -13,6 +30,86 @@
       "writtenOn": "2019-02-14T16:29:54Z",
       "side": 1,
       "message": "Can we use my recipe instead? It makes it easier to select the desired bootblock version. https://gerrit.openbmc-project.xyz/c/openbmc/meta-nuvoton/+/12596\n\nFeel free to cherry-pick that change into your stack and take it over.",
+      "revId": "39b920c7d78a8532f95ff23a37bad0a54ff532f6",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f63d92a8_f4728650",
+        "filename": "recipes-phosphor/images/npcm7xx-igps-native.bb",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1000233
+      },
+      "writtenOn": "2019-03-26T21:51:51Z",
+      "side": 1,
+      "message": "Why are you removing these folders?",
+      "revId": "39b920c7d78a8532f95ff23a37bad0a54ff532f6",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c8a7583b_14445ae8",
+        "filename": "recipes-phosphor/images/obmc-phosphor-image.bbappend",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000233
+      },
+      "writtenOn": "2019-03-26T21:51:51Z",
+      "side": 1,
+      "message": "I\u0027d prefer to keep phosphor-specific stuff out of meta-nuvoton, so that we can use the BSPs separately. Can you move this file to meta-phosphor/nuvoton-layer?",
+      "revId": "39b920c7d78a8532f95ff23a37bad0a54ff532f6",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8b7c697b_fdfad734",
+        "filename": "recipes-phosphor/images/obmc-phosphor-image.bbappend",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000233
+      },
+      "writtenOn": "2019-03-26T21:51:51Z",
+      "side": 1,
+      "message": "These should be in conf/machine/include/npcm7xx.inc so they can be changed for future BMCs and to make it easier for machines to override them in their machine.conf files.\n\nAlso, could you add a FLASH_UBOOT_ENV_OFFSET to point to the u-boot environment partition?",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 32
+      },
+      "revId": "39b920c7d78a8532f95ff23a37bad0a54ff532f6",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e55bed46_dcdadde1",
+        "filename": "recipes-phosphor/images/obmc-phosphor-image.bbappend",
+        "patchSetId": 2
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1000233
+      },
+      "writtenOn": "2019-03-26T21:51:51Z",
+      "side": 1,
+      "message": "If you append \".merged\" to UBOOT_SUFFIX then the original symlink functions will still work.\n\nYou can see how I was doing it here: https://gerrit.openbmc-project.xyz/c/openbmc/meta-phosphor/+/13484",
+      "range": {
+        "startLine": 64,
+        "startChar": 0,
+        "endLine": 75,
+        "endChar": 68
+      },
       "revId": "39b920c7d78a8532f95ff23a37bad0a54ff532f6",
       "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
       "unresolved": true
