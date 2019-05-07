@@ -1,0 +1,10 @@
+Ok-To-Test+1: Jenkins <openbmc-ci-admin@ozlabs.org>
+Code-Review+1: Tomer Maimon <tmaimon77@gmail.com>
+Code-Review+1: Joel Stanley <joel@jms.id.au>
+Code-Review+2: Brad Bishop <bradleyb@fuzziesquirrel.com>
+Verified+1: Brad Bishop <bradleyb@fuzziesquirrel.com>
+Submitted-by: Brad Bishop <bradleyb@fuzziesquirrel.com>
+Submitted-at: Tue, 07 May 2019 20:13:09 +0000
+Reviewed-on: https://gerrit.openbmc-project.xyz/c/openbmc/meta-nuvoton/+/21176
+Project: openbmc/meta-nuvoton
+Branch: refs/heads/master
