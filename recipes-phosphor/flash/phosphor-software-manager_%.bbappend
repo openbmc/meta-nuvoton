@@ -1,0 +1,1 @@
+PACKAGECONFIG ??= "verify_signature"
