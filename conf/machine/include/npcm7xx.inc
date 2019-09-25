@@ -4,8 +4,16 @@
 
 require conf/machine/include/nuvoton.inc
 
+# Create uImage for netbooting
 KERNEL_IMAGETYPE ?= "uImage"
 KERNEL_EXTRA_ARGS ?= "UIMAGE_LOADADDR=0x00008000"
+
+# Create fitImage for booting from flash
+KERNEL_IMAGETYPES ?= "fitImage"
+KERNEL_CLASSES ?= "kernel-fitimage"
+
+INITRAMFS_CTYPE ?= "lzma"
+INITRAMFS_FSTYPES = "cpio.${INITRAMFS_CTYPE}"
 
 UBOOT_MACHINE ?= "PolegSVB_config"
 UBOOT_ENTRYPOINT ?= "0x00008000"
