@@ -1,0 +1,9 @@
+Ok-To-Test+1: Jenkins <openbmc-ci-admin@ozlabs.org>
+Code-Review+1: Kun Yi <kunyi731@gmail.com>
+Verified+1: Jenkins <openbmc-ci-admin@ozlabs.org>
+Code-Review+2: Benjamin Fair <benjaminfair@google.com>
+Submitted-by: Benjamin Fair <benjaminfair@google.com>
+Submitted-at: Fri, 06 Dec 2019 01:09:21 +0000
+Reviewed-on: https://gerrit.openbmc-project.xyz/c/openbmc/meta-nuvoton/+/27696
+Project: openbmc/meta-nuvoton
+Branch: refs/heads/master
