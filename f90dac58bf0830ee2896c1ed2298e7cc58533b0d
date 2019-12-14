@@ -1,0 +1,9 @@
+Ok-To-Test+1: Jenkins <openbmc-ci-admin@ozlabs.org>
+Verified+1: Jenkins <openbmc-ci-admin@ozlabs.org>
+Code-Review+2: Benjamin Fair <benjaminfair@google.com>
+Code-Review+1: Joseph Liu <kwliu@nuvoton.com>
+Submitted-by: Benjamin Fair <benjaminfair@google.com>
+Submitted-at: Sat, 14 Dec 2019 01:22:29 +0000
+Reviewed-on: https://gerrit.openbmc-project.xyz/c/openbmc/meta-nuvoton/+/27407
+Project: openbmc/meta-nuvoton
+Branch: refs/heads/master
