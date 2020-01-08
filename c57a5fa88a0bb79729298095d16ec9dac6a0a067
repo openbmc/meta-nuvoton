@@ -1,0 +1,11 @@
+Ok-To-Test+1: Jenkins <openbmc-ci-admin@ozlabs.org>
+Verified+1: Jenkins <openbmc-ci-admin@ozlabs.org>
+Code-Review+1: Joel Stanley <joel@jms.id.au>
+Code-Review+1: Samuel Jiang <Samuel.Jiang@quantatw.com>
+Code-Review+1: Fran Hsu <fran.hsu@quantatw.com>
+Code-Review+2: Benjamin Fair <benjaminfair@google.com>
+Submitted-by: Joel Stanley <joel@jms.id.au>
+Submitted-at: Wed, 08 Jan 2020 06:33:40 +0000
+Reviewed-on: https://gerrit.openbmc-project.xyz/c/openbmc/meta-nuvoton/+/28053
+Project: openbmc/meta-nuvoton
+Branch: refs/heads/master
