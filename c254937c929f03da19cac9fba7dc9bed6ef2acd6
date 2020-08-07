@@ -1,0 +1,10 @@
+Ok-To-Test+1: OpenBMC CI <openbmcbump-ci@yahoo.com>
+Verified+1: OpenBMC CI <openbmcbump-ci@yahoo.com>
+Code-Review+1: Brandon Kim <brandonkim@google.com>
+Code-Review+1: George Hung <george.hung@quantatw.com>
+Code-Review+2: Benjamin Fair <benjaminfair@google.com>
+Submitted-by: Joseph Liu <kwliu@nuvoton.com>
+Submitted-at: Fri, 07 Aug 2020 01:18:03 +0000
+Reviewed-on: https://gerrit.openbmc-project.xyz/c/openbmc/meta-nuvoton/+/34756
+Project: openbmc/meta-nuvoton
+Branch: refs/heads/master
