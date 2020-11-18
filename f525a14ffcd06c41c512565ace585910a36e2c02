@@ -1,0 +1,10 @@
+Ok-To-Test+1: OpenBMC CI <openbmcbump-ci@yahoo.com>
+Code-Review+1: <lancelot.kao@fii-usa.com>
+Code-Review+1: Mohaimen Alsamarai <Mohaimen.Alsamarai@fii-na.com>
+Code-Review+2: Benjamin Fair <benjaminfair@google.com>
+Verified+1: Benjamin Fair <benjaminfair@google.com>
+Submitted-by: Benjamin Fair <benjaminfair@google.com>
+Submitted-at: Wed, 18 Nov 2020 16:22:46 +0000
+Reviewed-on: https://gerrit.openbmc-project.xyz/c/openbmc/meta-nuvoton/+/38300
+Project: openbmc/meta-nuvoton
+Branch: refs/heads/master
